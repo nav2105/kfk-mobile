@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b123a819-30cf-4225-9828-36a261e0241d">
+  <name>Bluetooth</name>
+  <synonym>
+    <key>ru</key>
+    <value>Bluetooth</value>
+  </synonym>
+</mdclass:CommonPicture>

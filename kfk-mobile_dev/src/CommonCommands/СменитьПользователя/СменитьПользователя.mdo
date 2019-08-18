@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a3af0d9-9cd2-424d-8f0b-701089b2393b">
+  <name>СменитьПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сменить пользователя</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

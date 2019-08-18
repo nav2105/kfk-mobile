@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15f8ac49-56d2-4c5b-a249-75107cb5db2f">
+  <producedTypes>
+    <objectType typeId="7ff36b37-4362-4529-9195-bb57bd49dc0f" valueTypeId="12f6c3e6-0dab-454c-8b12-2aa83a4b2624"/>
+    <refType typeId="63844b85-7b5c-4652-a163-1e593dd6e965" valueTypeId="a831eb5f-a865-4746-9430-77a29358e685"/>
+    <selectionType typeId="1c487a3c-42c0-4b85-a9f1-ddd08a04b2e0" valueTypeId="191df70b-8130-4bf7-b7ce-0bc106a46e07"/>
+    <listType typeId="b3ca988d-c918-4305-acac-65bc517c87f6" valueTypeId="27f21bf3-8189-4721-83c8-62e057ef30ca"/>
+    <managerType typeId="b62bd8b1-199a-4596-af68-adf578fcab4a" valueTypeId="04b9872b-6244-4688-b170-db373ee37cb4"/>
+  </producedTypes>
+  <name>АпкПартии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помологии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АпкПартии.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.АпкПартии.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.АпкПартии.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="fa74ad51-f731-4482-aede-2e1d3f957ae2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f80060d3-89b7-4bad-b10c-b5a22f1d259c">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

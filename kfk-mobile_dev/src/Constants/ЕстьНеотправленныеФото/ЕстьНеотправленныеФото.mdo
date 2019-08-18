@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b485885-87a8-478b-9817-6744f2dd95e7">
+  <producedTypes>
+    <managerType typeId="a82f6e23-e5aa-4b9e-a717-dacbbb4a43f1" valueTypeId="78151da6-7da4-4359-a8a3-0c06906a5bd7"/>
+    <valueManagerType typeId="f4ebbd51-613f-4ef9-81cf-f92376cee052" valueTypeId="1e050b6e-be00-4e50-8e3d-5b8315d6c692"/>
+    <valueKeyType typeId="0e0b806c-d2ba-4f4f-a592-e85e3ea33900" valueTypeId="cf116071-cd30-4880-8246-439b598ac661"/>
+  </producedTypes>
+  <name>ЕстьНеотправленныеФото</name>
+  <synonym>
+    <key>ru</key>
+    <value>Есть неотправленные фото</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

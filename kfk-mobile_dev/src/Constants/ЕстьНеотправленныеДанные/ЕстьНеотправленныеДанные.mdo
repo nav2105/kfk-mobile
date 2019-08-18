@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa98e398-04b3-4638-b9df-f000730c2710">
+  <producedTypes>
+    <managerType typeId="aa117eda-ea38-4e4c-a8ca-eaa61129d327" valueTypeId="37d9081c-9f57-43d6-b4fc-7d96aacb1875"/>
+    <valueManagerType typeId="49f6a3e1-d12e-4f16-8b4a-90e1e337dc60" valueTypeId="16b0e4fe-6ccd-42d2-86d0-c163926727c4"/>
+    <valueKeyType typeId="b1c394ef-3c4b-5408-a096-d747c6a80d1d" valueTypeId="5defe6c2-f558-5f70-9d1a-6d2e9583c3e6"/>
+  </producedTypes>
+  <name>ЕстьНеотправленныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Есть неотправленные данные</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

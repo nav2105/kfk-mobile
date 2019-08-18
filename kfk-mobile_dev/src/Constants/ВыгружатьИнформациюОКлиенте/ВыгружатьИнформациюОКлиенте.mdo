@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83100d51-2d2e-49d2-a10c-36d433daeec0">
+  <producedTypes>
+    <managerType typeId="5e5290c7-d30b-4e7f-ba25-58a62828c42c" valueTypeId="60aedb91-71ca-4ab5-bd47-070fa718f794"/>
+    <valueManagerType typeId="33dddc6d-7c4c-4597-8b08-998d2895ca3e" valueTypeId="f64249a8-b53d-4a14-8faf-f1e2e627f8f2"/>
+    <valueKeyType typeId="a35ef3b3-ed51-444a-8a85-8aa934540d75" valueTypeId="9c364546-0d14-437b-b943-85abedce1b5f"/>
+  </producedTypes>
+  <name>ВыгружатьИнформациюОКлиенте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгружать информацию о клиенте</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

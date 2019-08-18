@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96732dde-5338-4284-a881-8d9df7d78810">
+  <producedTypes>
+    <selectionType typeId="1d194efe-b521-4857-b10c-88f0641a4c9f" valueTypeId="d5bd6b2a-48e1-4a27-b8d5-9fadde829367"/>
+    <listType typeId="d3b3d194-190d-4c73-a996-d4bc11adbee9" valueTypeId="70990adb-95c6-42c2-9614-8b68bca06d6c"/>
+    <managerType typeId="98637f7a-fb22-4ed7-bf19-78975e2528fa" valueTypeId="79e31480-0257-4404-9d66-488cf2ea0ed9"/>
+    <recordSetType typeId="0763fb05-2c5c-4bfe-8a6c-a2e2fc8483d0" valueTypeId="95a61daf-3264-47ed-a922-9bab2afdd3fe"/>
+    <recordKeyType typeId="e63a1a79-8d41-444f-84a5-94e15af008f6" valueTypeId="075d17ca-2456-4e82-95e7-0a693b4e4f62"/>
+    <recordType typeId="76172a63-b54a-4bfb-a76d-b8b9ef52839a" valueTypeId="9783b548-e34f-46d2-bae0-6f463e493e1a"/>
+    <recordManagerType typeId="e096ab28-b45f-4c99-8512-8f7e137e0d8b" valueTypeId="2c601991-bd46-43a6-9c33-b9b42e537d03"/>
+  </producedTypes>
+  <name>ОчередьФотоНаСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь фото на сервер</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3c304ca5-3eb8-493c-bcdb-c871eee9ecbc">
+    <name>АдресНаДиске</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес на диске</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="48f31bfc-aabe-4d32-9e38-bf92bbc4ac09">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ОФ_ОценкаКачестваУборкиУрожая</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="865a4e6c-1c88-4c5d-b894-38627c533500">
+    <name>ИндексФото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс фото</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

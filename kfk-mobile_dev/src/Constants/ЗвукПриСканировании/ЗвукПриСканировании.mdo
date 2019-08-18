@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbdb9bd5-66b8-4dae-9d79-cf1659d99b2e">
+  <producedTypes>
+    <managerType typeId="c81cbf82-1621-4cf7-9792-19693d753e19" valueTypeId="551fae7b-0c7d-474a-bd50-62ffe1c18f8f"/>
+    <valueManagerType typeId="d10ec994-4417-43de-bf29-160b76535793" valueTypeId="644aca91-b9fc-4224-8225-76dfef64d87f"/>
+    <valueKeyType typeId="d82ef63c-3ec2-508a-a364-11d49da163e0" valueTypeId="e2fc99ef-a036-595b-a48c-47d27f9683b1"/>
+  </producedTypes>
+  <name>ЗвукПриСканировании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Звук при сканировании</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

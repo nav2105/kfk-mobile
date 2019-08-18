@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ca8ea1e-1d0b-410e-9396-7ac8d4e2e2b7">
+  <name>НазадНаФорме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назад на форме</value>
+  </synonym>
+</mdclass:CommonPicture>

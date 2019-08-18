@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dc1a8ac-b800-4ff1-9b3e-c8c7fdf00171">
+  <name>МобильноеПриложениеКФК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильное приложение КФК</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="dc125066-b2b6-4803-880b-7dbc2ff76130"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="5dcc7755-8b4e-4a89-91dd-ce60220ae935"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="8a28e08b-5e7a-4e89-883c-19876b90d8f7"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e8d9ced4-be7b-4833-b9cb-5cb677ef72ab"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="d077037e-bfbb-405a-8f12-6e9775446685"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="665fadb7-c9a5-4c32-bcd3-3862558a230f"/>
+  <configurationExtensionCompatibilityMode>8.3.13</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>1.42</version>
+  <requiredMobileApplicationPermissions>Multimedia</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Telephony</requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>ООО УК «Оптима-Финанс»</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>www.crimean-fruit-company.com</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>hd@agro-optima.ru</value>
+  </configurationInformationAddress>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.13</compatibilityMode>
+  <languages uuid="409c8a92-9484-42b1-97df-772246680318">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Документы</subsystems>
+  <commonPictures>CommonPicture.Bluetooth</commonPictures>
+  <commonPictures>CommonPicture.Пароль</commonPictures>
+  <commonPictures>CommonPicture.КомандаОбновитьСписок</commonPictures>
+  <commonPictures>CommonPicture.КомандаОбновитьВнимание</commonPictures>
+  <commonPictures>CommonPicture.КомандаОбновитьВПроцессе</commonPictures>
+  <commonPictures>CommonPicture.ДобавитьНаФорме</commonPictures>
+  <commonPictures>CommonPicture.ДобавитьПоШтрихкоду</commonPictures>
+  <commonPictures>CommonPicture.СтрокаПоля1</commonPictures>
+  <commonPictures>CommonPicture.СтрокаПоля2</commonPictures>
+  <commonPictures>CommonPicture.СтрокаПоля3</commonPictures>
+  <commonPictures>CommonPicture.СтрокаПоля4</commonPictures>
+  <commonPictures>CommonPicture.Контейнер</commonPictures>
+  <commonPictures>CommonPicture.Реквизиты</commonPictures>
+  <commonPictures>CommonPicture.Глаз</commonPictures>
+  <commonPictures>CommonPicture.Штрихкод</commonPictures>
+  <commonPictures>CommonPicture.СохранитьНаФорме</commonPictures>
+  <commonPictures>CommonPicture.Оценка</commonPictures>
+  <commonPictures>CommonPicture.Цифра1</commonPictures>
+  <commonPictures>CommonPicture.Цифра2</commonPictures>
+  <commonPictures>CommonPicture.Цифра3</commonPictures>
+  <commonPictures>CommonPicture.Цифра4</commonPictures>
+  <commonPictures>CommonPicture.Цифра5</commonPictures>
+  <commonPictures>CommonPicture.СоздатьОценку</commonPictures>
+  <commonPictures>CommonPicture.БригадаУборка</commonPictures>
+  <commonPictures>CommonPicture.НазадНаФорме</commonPictures>
+  <commonPictures>CommonPicture.СМС</commonPictures>
+  <commonPictures>CommonPicture.КоробСтроки</commonPictures>
+  <commonPictures>CommonPicture.ДобавитьФото</commonPictures>
+  <commonPictures>CommonPicture.Фото</commonPictures>
+  <commonTemplates>CommonTemplate.ErrorScanAlarm</commonTemplates>
+  <commonTemplates>CommonTemplate.RSDriver</commonTemplates>
+  <commonTemplates>CommonTemplate.RSExchange</commonTemplates>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбменВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбменКлиент</commonModules>
+  <commonModules>CommonModule.ОбменВызовСервераПовтИсп</commonModules>
+  <exchangePlans>ExchangePlan.ОбменССервером</exchangePlans>
+  <commonCommands>CommonCommand.СменитьПользователя</commonCommands>
+  <commonCommands>CommonCommand.ПерезапуститьПриложение</commonCommands>
+  <constants>Constant.ВиброПриСканировании</constants>
+  <constants>Constant.ДатаПоследнегоОбновления</constants>
+  <constants>Constant.ЕстьНеотправленныеДанные</constants>
+  <constants>Constant.ЕстьНеотправленныеФото</constants>
+  <constants>Constant.ЗвукПриСканировании</constants>
+  <constants>Constant.КодУстройства</constants>
+  <constants>Constant.Пароль</constants>
+  <constants>Constant.ПользовательЦентральнойБазы</constants>
+  <constants>Constant.ВыгружатьИнформациюОКлиенте</constants>
+  <constants>Constant.ДиагональЭкрана</constants>
+  <commonForms>CommonForm.Авторизация</commonForms>
+  <commonForms>CommonForm.РабочийСтол</commonForms>
+  <commonForms>CommonForm.Настройки</commonForms>
+  <commonForms>CommonForm.РучнойВводШК</commonForms>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.АпкПоля</catalogs>
+  <catalogs>Catalog.АпкПартии</catalogs>
+  <catalogs>Catalog.Бригады</catalogs>
+  <catalogs>Catalog.ОФ_ПоказателиКачества</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.ЭтапПроизводства2_2</documents>
+  <documents>Document.ОФ_УборкаУрожая</documents>
+  <documents>Document.ОФ_ОценкаКачестваУборкиУрожая</documents>
+  <informationRegisters>InformationRegister.ОчередьСообщенийНаСервер</informationRegisters>
+  <informationRegisters>InformationRegister.ОчередьФотоНаСервер</informationRegisters>
+</mdclass:Configuration>

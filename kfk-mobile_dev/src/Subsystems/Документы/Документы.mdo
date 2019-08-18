@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df446d63-1596-4f00-a9bb-a168acce845f">
+  <name>Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>История операций</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.ОФ_ОценкаКачестваУборкиУрожая</content>
+  <content>Document.ОФ_УборкаУрожая</content>
+</mdclass:Subsystem>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4c6ae74-c29c-4476-8093-f926baf23577">
+  <name>RSDriver</name>
+  <synonym>
+    <key>ru</key>
+    <value>RSDriver</value>
+  </synonym>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>

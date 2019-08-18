@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c5283f2-03de-487a-b793-f8fcf63128d3">
+  <name>БригадаУборка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бригада уборка</value>
+  </synonym>
+</mdclass:CommonPicture>

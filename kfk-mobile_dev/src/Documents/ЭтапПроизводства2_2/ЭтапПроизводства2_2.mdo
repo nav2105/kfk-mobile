@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e840b999-7bed-4a9d-b7ec-d28391305155">
+  <producedTypes>
+    <objectType typeId="6f1ebd69-b6ad-4779-897b-f76a68b24d10" valueTypeId="a3864be2-cb77-44da-898e-6bae037feda2"/>
+    <refType typeId="4c62edcb-e250-4a78-bfda-cf858ddfc69f" valueTypeId="1aa4c528-4d02-4590-b6db-92e7de9a2218"/>
+    <selectionType typeId="9ff87156-d144-434d-bb76-d5bb3439d501" valueTypeId="0a6b2924-17fa-4f13-94df-f4bdd928e98d"/>
+    <listType typeId="29e583f8-9cc1-4a2e-bd3b-e047f12dd15a" valueTypeId="587e0a19-979d-47b7-872a-e7d26f7ba643"/>
+    <managerType typeId="41cc017c-d861-4e95-9cc7-462c11127427" valueTypeId="ea965201-504c-45d1-a089-eb7c728b193f"/>
+  </producedTypes>
+  <name>ЭтапПроизводства2_2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этап производства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЭтапПроизводства2_2.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>20</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="8e88d7a0-54b1-4a2d-80a7-13e8cf86e5d1">
+    <name>Поле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АпкПоля</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="4c4805a1-6f50-47c2-892b-4a704164f2eb">
+    <producedTypes>
+      <objectType typeId="abd76c8c-6599-4ab7-b92a-c3bf31251055" valueTypeId="fa7de4be-0c71-4cbc-a896-3dca5fd2fc29"/>
+      <rowType typeId="76f97a68-625e-4dfa-883f-928037abb3a2" valueTypeId="44746dc1-3c62-4bf3-b124-54df9b1cf8aa"/>
+    </producedTypes>
+    <name>ВыходныеИзделия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выходные изделия</value>
+    </synonym>
+    <attributes uuid="3d107562-d25a-43d4-b516-5f7fc9e12b3c">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="76875455-7a95-4a1e-a493-17a136d77cdd">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37ba1ed8-d50f-453e-b7e8-afafdf282cf4">
+  <name>ErrorScanAlarm</name>
+  <synonym>
+    <key>ru</key>
+    <value>Error scan alarm</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

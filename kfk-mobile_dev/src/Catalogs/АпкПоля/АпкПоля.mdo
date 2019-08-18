@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9db343d1-652f-4a27-89fc-fd8efc6b1d9c">
+  <producedTypes>
+    <objectType typeId="083c4e29-ae14-413a-b80b-203c71eb7dbd" valueTypeId="78ec7e81-8700-4454-bd50-2e65065498b7"/>
+    <refType typeId="62dfe60e-4171-4075-a354-ff739631637c" valueTypeId="267990c9-f72f-4a27-a909-29bec0588bc1"/>
+    <selectionType typeId="77e7c52b-09cb-47bc-a9b5-fd400edad3fb" valueTypeId="5848d1ba-a5bd-4a44-a7b5-9cb647420208"/>
+    <listType typeId="1b7665c9-7e45-4220-98d8-52801b4566b7" valueTypeId="3ef68fe3-4fa1-4b3c-808a-c10b36e09c29"/>
+    <managerType typeId="2073acb0-637e-415f-a15e-b87ecf8dc7b1" valueTypeId="e5ebd348-9e62-444c-9249-c03fd3bff660"/>
+  </producedTypes>
+  <name>АпкПоля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поля</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АпкПоля.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.АпкПоля.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.АпкПоля.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="dbc2076f-50f1-4668-bd19-9350e9fab138">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7c3caca5-c1f8-45f0-a5fe-1473898eb11f">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

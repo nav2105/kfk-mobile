@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ce65fd2-99ae-4115-a4a5-f1395db3692a" thisNode="844a9c7f-7774-4e30-ad88-a4143d4802c2">
+  <producedTypes>
+    <objectType typeId="38099571-4e0d-46ae-8da8-e8ab3b25348a" valueTypeId="cb7c5208-1cb8-4692-b77a-823d5f394e84"/>
+    <refType typeId="7d506679-5b2c-4f49-9c16-141a8edac037" valueTypeId="f3c1f1b5-84c3-4fe0-b4de-bd7cd45efe4e"/>
+    <selectionType typeId="b65d5f5f-0b61-4936-b126-9d8cec83e0fc" valueTypeId="2150f48b-e7d5-473e-bcda-53d5d467f882"/>
+    <listType typeId="e63f06fc-edeb-44e2-9894-c82988567b31" valueTypeId="db82a874-099d-48eb-87ab-063b05d382bc"/>
+    <managerType typeId="e12c3700-d8c5-4b86-9793-80736009ec3f" valueTypeId="4522d099-7d7a-4498-ac4f-30b97dafa754"/>
+  </producedTypes>
+  <name>ОбменССервером</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с сервером</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменССервером.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменССервером.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>36</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>Document.ОФ_УборкаУрожая</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.ОФ_ОценкаКачестваУборкиУрожая</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

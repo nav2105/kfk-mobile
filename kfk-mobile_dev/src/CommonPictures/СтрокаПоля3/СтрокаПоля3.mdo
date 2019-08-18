@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba731752-8fed-411c-8b29-8a3700523a22">
+  <name>СтрокаПоля3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Строка поля3</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43d9cd8a-bd44-4745-878a-59312273eead">
+  <producedTypes>
+    <managerType typeId="427ca547-afa8-40f1-a35b-26f222a816b0" valueTypeId="c192e142-f252-4047-a8a0-6522036427d7"/>
+    <valueManagerType typeId="e173105c-8001-43f0-8751-63450b7996d8" valueTypeId="3c45b756-d9f0-4aad-ac4f-296af2de51d7"/>
+    <valueKeyType typeId="aabe82d4-8b1e-523f-95cc-0876036b9964" valueTypeId="98d2c295-59cf-5e5a-b7ab-b68d1b57251f"/>
+  </producedTypes>
+  <name>КодУстройства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Код устройства</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>36</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

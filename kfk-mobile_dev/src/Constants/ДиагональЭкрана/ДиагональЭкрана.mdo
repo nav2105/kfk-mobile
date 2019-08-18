@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab63a9f5-5432-46fb-842f-5408c63bc582">
+  <producedTypes>
+    <managerType typeId="6baeb382-f509-4d95-926d-a96d35a8a9ea" valueTypeId="9a450f88-f5e6-44b1-8b7c-f83f798c620f"/>
+    <valueManagerType typeId="fb8f9b47-d590-4c50-b7f2-9fe2ea84a787" valueTypeId="147c9a69-358f-4490-9dab-f8acba3bad05"/>
+    <valueKeyType typeId="aa6f93b8-4097-49d2-84b3-38e74f9e99b2" valueTypeId="d624f60a-3b32-4b6e-bfb6-17df363482a1"/>
+  </producedTypes>
+  <name>ДиагональЭкрана</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диагональ экрана</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>1</scale>
+    </numberQualifiers>
+  </type>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

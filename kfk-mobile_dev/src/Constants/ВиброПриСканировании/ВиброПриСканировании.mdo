@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c9799f2-6fd5-4d84-ae61-0ae463b38ef3">
+  <producedTypes>
+    <managerType typeId="3a9eba7b-6302-47d0-856d-8923bb9c4b3d" valueTypeId="d4b7e995-ca22-4716-94a5-0ac2ca1e56a2"/>
+    <valueManagerType typeId="f8a7b1d3-c680-445b-9522-4293b49fe940" valueTypeId="470dda48-1bef-41b4-a483-fd556e2bd2e4"/>
+    <valueKeyType typeId="e87aa16c-e444-547d-a99a-c88d9e90c3d8" valueTypeId="6f176895-bcba-5583-8fe6-8867dd68cd67"/>
+  </producedTypes>
+  <name>ВиброПриСканировании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вибро при сканировании</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
