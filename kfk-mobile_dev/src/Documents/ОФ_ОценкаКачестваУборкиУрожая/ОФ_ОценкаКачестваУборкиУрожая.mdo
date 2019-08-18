@@ -264,6 +264,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="d67cf2e1-4bba-49aa-975b-19b6957498e7">
+    <name>ОценкиЗаДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценки за день</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="4f29c0ad-9ca8-4f07-9ef2-708f725f8dd5">
     <producedTypes>
       <objectType typeId="cbdf114c-83f0-4b7f-9fdd-7774ac64864f" valueTypeId="a40df9c4-9a3b-4796-8923-7c39fe28f0d3"/>
@@ -466,4 +475,13 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <commands uuid="d95bd423-17bc-4052-b161-2e11ae740f55">
+    <name>ОценкиЗаДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценки за день</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>

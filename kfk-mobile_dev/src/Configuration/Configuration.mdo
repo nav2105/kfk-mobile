@@ -74,6 +74,7 @@
   <commonPictures>CommonPicture.КоробСтроки</commonPictures>
   <commonPictures>CommonPicture.ДобавитьФото</commonPictures>
   <commonPictures>CommonPicture.Фото</commonPictures>
+  <commonPictures>CommonPicture.ВпередНаФорме</commonPictures>
   <commonTemplates>CommonTemplate.ErrorScanAlarm</commonTemplates>
   <commonTemplates>CommonTemplate.RSDriver</commonTemplates>
   <commonTemplates>CommonTemplate.RSExchange</commonTemplates>
@@ -82,6 +83,7 @@
   <commonModules>CommonModule.ОбменВызовСервера</commonModules>
   <commonModules>CommonModule.ОбменКлиент</commonModules>
   <commonModules>CommonModule.ОбменВызовСервераПовтИсп</commonModules>
+  <commonModules>CommonModule.ОценкаКачестваКлиентСервер</commonModules>
   <exchangePlans>ExchangePlan.ОбменССервером</exchangePlans>
   <commonCommands>CommonCommand.СменитьПользователя</commonCommands>
   <commonCommands>CommonCommand.ПерезапуститьПриложение</commonCommands>
