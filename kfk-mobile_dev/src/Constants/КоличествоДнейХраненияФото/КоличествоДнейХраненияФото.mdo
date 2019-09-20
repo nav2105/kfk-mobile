@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd5c94c2-8a5b-47d6-91dc-66f8fa7aa5d9">
+  <producedTypes>
+    <managerType typeId="7f48cd93-0f80-4b10-9296-759f54961a7b" valueTypeId="76337765-4197-4fc7-95c1-999d79ded14d"/>
+    <valueManagerType typeId="fb726d4e-a398-40b3-81ae-cf47344c6b20" valueTypeId="668b3395-3da5-4e52-a409-0609d3d912fe"/>
+  </producedTypes>
+  <name>КоличествоДнейХраненияФото</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранить фото (дни)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

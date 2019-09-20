@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc5bf866-096f-4da8-9521-73f968abd6fb">
+  <producedTypes>
+    <managerType typeId="e043ffea-cd82-4fdc-8bb5-bbb5724bec29" valueTypeId="db5fc2fd-623a-4a75-9d17-dbeb377dce87"/>
+    <valueManagerType typeId="81a0482b-5caf-4efe-8f2d-2342c21f09f8" valueTypeId="549d872b-a72a-420f-961d-a3690232b1b1"/>
+  </producedTypes>
+  <name>КаталогФото</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог фото</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>400</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

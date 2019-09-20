@@ -15,7 +15,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <version>1.50</version>
+  <version>1.63</version>
   <requiredMobileApplicationPermissions>Multimedia</requiredMobileApplicationPermissions>
   <requiredMobileApplicationPermissions>Telephony</requiredMobileApplicationPermissions>
   <defaultLanguage>Language.Русский</defaultLanguage>
@@ -97,6 +97,8 @@
   <constants>Constant.ПользовательЦентральнойБазы</constants>
   <constants>Constant.ВыгружатьИнформациюОКлиенте</constants>
   <constants>Constant.ДиагональЭкрана</constants>
+  <constants>Constant.КоличествоДнейХраненияФото</constants>
+  <constants>Constant.КаталогФото</constants>
   <commonForms>CommonForm.Авторизация</commonForms>
   <commonForms>CommonForm.РабочийСтол</commonForms>
   <commonForms>CommonForm.Настройки</commonForms>
