@@ -202,6 +202,63 @@
         </font>
       </extInfo>
     </items>
+    <items xsi:type="form:FormField">
+      <name>КоличествоСтарыхФото</name>
+      <id>16</id>
+      <titleTextColor xsi:type="core:ColorRef">
+        <color>Web.LightGray</color>
+      </titleTextColor>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>КоличествоСтарыхФото</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>КоличествоСтарыхФотоРасширеннаяПодсказка</name>
+        <id>18</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>КоличествоСтарыхФотоКонтекстноеМеню</name>
+        <id>17</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <readOnly>true</readOnly>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+        <textColor xsi:type="core:ColorRef">
+          <color>Web.Gray</color>
+        </textColor>
+      </extInfo>
+    </items>
     <items xsi:type="form:Button">
       <name>УдалитьФото</name>
       <id>14</id>
@@ -308,11 +365,32 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>КоличествоСтарыхФото</name>
+    <title>
+      <key>ru</key>
+      <value>Устаревшие фото</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>УдалитьФото</name>
     <title>
       <key>ru</key>
-      <value>Удалить старые фото</value>
+      <value>Удалить устаревшие фото</value>
     </title>
     <id>1</id>
     <use>

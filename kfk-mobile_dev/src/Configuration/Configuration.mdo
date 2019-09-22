@@ -75,9 +75,9 @@
   <commonPictures>CommonPicture.ДобавитьФото</commonPictures>
   <commonPictures>CommonPicture.Фото</commonPictures>
   <commonPictures>CommonPicture.ВпередНаФорме</commonPictures>
+  <commonPictures>CommonPicture.Информация</commonPictures>
   <commonTemplates>CommonTemplate.ErrorScanAlarm</commonTemplates>
   <commonTemplates>CommonTemplate.RSDriver</commonTemplates>
-  <commonTemplates>CommonTemplate.RSExchange</commonTemplates>
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.ОбменВызовСервера</commonModules>

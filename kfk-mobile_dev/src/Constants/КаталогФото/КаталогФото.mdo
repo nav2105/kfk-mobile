@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc5bf866-096f-4da8-9521-73f968abd6fb">
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2471f308-5546-4495-aaee-de1e369a3a5f">
   <producedTypes>
-    <managerType typeId="e043ffea-cd82-4fdc-8bb5-bbb5724bec29" valueTypeId="db5fc2fd-623a-4a75-9d17-dbeb377dce87"/>
-    <valueManagerType typeId="81a0482b-5caf-4efe-8f2d-2342c21f09f8" valueTypeId="549d872b-a72a-420f-961d-a3690232b1b1"/>
+    <managerType typeId="baadeb95-3b50-492d-9881-b8bb0c726488" valueTypeId="eaa7af79-7d8f-4488-8359-421105be378a"/>
+    <valueManagerType typeId="810d50e1-9ba6-4d1c-9787-1c5fec7bb479" valueTypeId="6f51a598-1925-4fdb-b298-ab59e1371ce1"/>
   </producedTypes>
   <name>КаталогФото</name>
   <synonym>
@@ -15,6 +15,5 @@
       <length>400</length>
     </stringQualifiers>
   </type>
-  <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

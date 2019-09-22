@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fb2e7bb-bc1e-4763-aac9-0b8004eb4a48">
-  <name>RSExchange</name>
-  <synonym>
-    <key>ru</key>
-    <value>RSExchange</value>
-  </synonym>
-  <templateType>AddIn</templateType>
-</mdclass:CommonTemplate>
