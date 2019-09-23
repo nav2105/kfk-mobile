@@ -15,7 +15,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <version>1.63</version>
+  <version>1.69</version>
   <requiredMobileApplicationPermissions>Multimedia</requiredMobileApplicationPermissions>
   <requiredMobileApplicationPermissions>Telephony</requiredMobileApplicationPermissions>
   <defaultLanguage>Language.Русский</defaultLanguage>

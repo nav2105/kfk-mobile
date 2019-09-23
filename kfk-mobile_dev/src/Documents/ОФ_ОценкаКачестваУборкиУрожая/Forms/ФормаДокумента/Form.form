@@ -375,7 +375,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <groupHorizontalAlign>Right</groupHorizontalAlign>
         <extendedTooltip>
           <name>Группа1РасширеннаяПодсказка</name>
           <id>45</id>
@@ -393,7 +392,7 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>HorizontalIfPossible</group>
+          <group>Vertical</group>
           <horizontalAlign>Right</horizontalAlign>
           <representation>NormalSeparation</representation>
           <showLeftMargin>true</showLeftMargin>
@@ -576,7 +575,6 @@
             </inputHint>
           </extInfo>
         </items>
-        <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -2663,7 +2661,6 @@
             <verticalAlign>Center</verticalAlign>
           </extInfo>
         </items>
-        <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
