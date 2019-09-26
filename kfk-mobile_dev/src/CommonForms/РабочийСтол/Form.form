@@ -71,7 +71,7 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:ImageFieldExtInfo">
-            <width>5</width>
+            <width>4</width>
             <autoMaxWidth>true</autoMaxWidth>
             <height>2</height>
             <autoMaxHeight>true</autoMaxHeight>
@@ -243,7 +243,7 @@
               <headerHorizontalAlign>Right</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
-                <width>6</width>
+                <width>3</width>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <horizontalStretch>false</horizontalStretch>
@@ -315,7 +315,7 @@
               <headerHorizontalAlign>Right</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
-                <width>3</width>
+                <width>4</width>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <horizontalStretch>false</horizontalStretch>
